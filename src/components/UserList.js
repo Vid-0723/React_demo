@@ -212,7 +212,7 @@ function UserList() {
                 )
               })}
             <div className='pagination-btn mt-3 mb-3 '>
-              <button type="button" className="btn btn-secondary" disabled={paginationArray == ""} onClick={handlePrev}>Prev</button>&nbsp;&nbsp;
+              <button type="button" className="btn btn-secondary" disabled={paginationArray === ""} onClick={handlePrev}>Prev</button>&nbsp;&nbsp;
               <button type="button" className="btn btn-secondary" disabled={offset === ""} onClick={handleNext}>Next</button>
             </div>
           </div>
