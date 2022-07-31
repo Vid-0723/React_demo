@@ -1,0 +1,29 @@
+body {
+  background: #d3d3d37a;
+}
+
+.main {
+  padding: 17px;
+  border-radius: 12px;
+  /* border: 5px solid black; */
+  background-color: #ffffff;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: lightblue;
+}
+
+T .title-user {
+  font-size: 20px;
+  font-weight: 500;
+  color: #6c757d;
+  margin-bottom: 0 !important;
+}
+
+.pagination-btn {
+  text-align: right;
+}
